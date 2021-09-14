@@ -31,7 +31,7 @@ function WordCase(num, arr) {
     if (num % 10 == 1 && num != 11) {
         return num + ' ' + arr[0] + ' ';
     }
-    else if (num % 10 > 1 && num % 10 < 5) {
+    else if (num % 10 > 1 && num % 10 < 5 && (num > 20 || num < 5)) {
         return num + ' ' + arr[1] + ' ';
     }
     else {
